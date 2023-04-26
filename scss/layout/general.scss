@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cuerpo {
+    background: $bk-color1;
+    color: black;
+    font-family: 'Nunito',sans-serif;
+    font-size: 12px;
+}
+
+body{
+    background: $bk-color1;
+    color: black;
+    font-family: 'Nunito',sans-serif;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: $color-titulos;
+}
+
+ul{
+    list-style: none;
+}
+
+hr{
+    width: 100%;
+    border: solid 2px $color-titulos ;
+}
+
+button:hover{
+    transform: scale(1.15,1.15);
+    opacity: .9;
+    color: black;
+    transition: transform 0.3s linear;
+}
+
+.destacados-tarjetas:hover{
+    transform: scale(1.03,1.03);
+    transition: transform 0.2s linear;
+}

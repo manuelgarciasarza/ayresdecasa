@@ -1,0 +1,70 @@
+.pie{
+    background-color: $bk-color2;
+    margin-top: 50px;
+    .pie-iconos {
+        font-family:'Nunito',sans-serif;
+        color: $color-titulos;
+        text-align: center;
+        padding-right: 60px;
+        h2{
+            margin-top: 10px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s linear;
+            &:hover {
+                transform: scale(1.5,1.5);
+                transition: transform 0.4s linear;
+            }
+        }
+    }
+    .pie-logo {
+        text-align: center;
+        img{
+            width: 150px;
+            height: 150px;
+            cursor: pointer;
+            transition: transform 0.4s linear;
+            &:hover{
+                transform: translateY(3px);
+                transition: transform 0.4s linear;
+            }
+        }
+
+    }
+    .pie-contacto{
+        padding-top: 7px;
+        font-family:'Nunito',sans-serif;
+        h3{
+            padding: 0px 10px;
+        }
+        p{
+            padding: 0px 10px;
+        }
+        a{
+            text-decoration: none;
+            color: $color-titulos ;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .pie-politicas{
+        padding-top: 7px;
+        font-family:'Nunito',sans-serif;
+        h3{
+            padding: 0px 10px;
+        }
+        p{
+            padding: 0px 10px;
+        }
+        a{
+            text-decoration: none;
+            color: $color-titulos ;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

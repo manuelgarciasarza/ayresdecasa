@@ -1,0 +1,117 @@
+.bienvenido{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    img{
+        width: 400px;
+        height: 400px;
+    }
+    .bienvenido-texto{
+        flex: 1;
+        font-family:'Playfair Display', serif;
+        padding-left: 30px;
+        padding-top: 90px;
+        p{
+            text-align: justify;
+        }
+        h1{
+            color: $color-titulos;
+            font-family:'Playfair Display', serif;
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        button{
+            padding: 3px 10px;
+            font-size: 15px;
+            margin-top: 30px;
+            color: $color-boton;
+            border-color: $color-boton;
+            transition: transform 0.3s linear;
+            border-radius: 6px;
+            border: 1px solid;
+            &:hover{
+                transform: scale(1.1,1.2);
+                opacity: .9;
+                background-color: $bk-color2;
+                transition: transform 0.2s linear;
+            }
+        }
+    }
+}
+
+/* Productos Destacados Inicio */
+.destacados{
+    background-color: $bk-color2;
+    margin: 70px 0;
+    h3{
+        color: $color-titulos;
+        font-family:'Nunito',sans-serif;
+        margin-top: 10px;
+    }
+    button{
+        color: $color-boton;
+        padding: 2px;
+        margin-bottom: 10px;
+        border-color: $color-boton;
+        transition: transform 0.3s linear;
+        border-radius: 6px;
+        border: 1px solid;
+        &:hover{
+            transform: scale(1.15,1.15);
+            opacity: .9;
+            color: black;
+            transition: transform 0.2s linear;
+        }
+    }
+    .titulo-destacados{
+        margin: 15px 0;
+        text-align: center;
+        font-family:'Playfair Display', serif;
+        color: $color-titulos;
+        font-size: 20px;   
+    }
+    .destacados-contenido{
+        padding-bottom: 10px;
+        font-family:'Playfair Display', serif;
+        font-size: 12px;
+        img{
+            width: 175px;
+            height: 175px;
+        }
+        .destacados-tarjetas{
+            text-align: center;
+            transition: transform 0.2s linear;
+            &:hover{
+                transform: scale(1.03,1.03);
+                transition: transform 0.2s linear;
+            }
+            p{
+                padding: 0px 40px;
+            }
+        }
+    }
+}
+
+/* Informacion Inicio */
+.info{
+    padding-bottom: 10px;
+    img{
+        width: 150px;
+        height: 150px;
+        transition: transform 0.3s linear;
+        &:hover{
+            transform: translateX(4px);
+            transition: transform 0.3s linear;
+        }
+    }
+    h2{
+        color: $color-titulos;
+        font-family:'Nunito',sans-serif;
+    }
+    .info-tarjetas {
+        text-align: center;
+    }
+}
+
+

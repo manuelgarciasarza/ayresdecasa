@@ -1,0 +1,104 @@
+.eventos{
+    display: flex;
+    background: url('../imagenes/fondo-eventos.jpeg') no-repeat center/cover;
+    height: 500px;
+    margin: 25px 0;
+    .eventos-texto{
+        font-family:'Playfair Display', serif;
+        height: 163px;
+        background-color: $bk-color2; opacity: 80%;
+        margin: 300px 0;
+        margin-left: 850px;
+        font-size: 15px;
+        width: 40%;
+        h1{
+            color: $color-titulos;
+            font-family:'Playfair Display', serif;
+            font-size: 50px;
+        }
+        p{
+            text-align: justify;
+            padding: 5px;
+        }
+    }
+}
+
+.eventos-feria{
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    img{
+        width: 300px;
+        height: 400px;
+        border: solid 2px $color-titulos;
+    }
+    p{
+        margin-top: 20px;
+        font-family:'Playfair Display', serif; 
+        font-size: 15px;
+        padding: 0px 150px;
+        text-align: left;
+        text-align: justify;
+    }
+    h3{
+        font-family:'Playfair Display', serif;
+        color: $color-titulos;
+        font-size: 30px;
+    }
+}
+
+/* Proximos Eventos */
+.proximos-eventos{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    h2{
+        font-family:'Playfair Display', serif;
+        color: $color-titulos;
+        font-size: 50px;
+    }
+    .proximos-eventos-texto{
+        width: 60%;
+        margin: 20px 130px ;
+        font-family:'Playfair Display', serif; 
+        font-size: 15px;
+        p{
+            text-align: left;
+            padding-left: 35px;
+        }
+        input{
+            margin: 20px 0px;
+        }
+        button{
+            margin-left: 60px;
+            font-size: 15px;
+            padding: 3px;
+            color: $color-boton;
+            border-color: $color-boton;
+            transition: transform 0.3s linear;
+            border-radius: 6px;
+            border: 1px solid;
+            &:hover{
+                transform: scale(1.1,1.2);
+                opacity: .9;
+                background-color: $bk-color2;
+                transition: transform 0.2s linear;
+            }
+        }
+    }
+}
+
+.fotos-eventos{
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+
+    img{
+        display: flex;
+        width: 336px;
+        height: 320px;
+    }
+}
+

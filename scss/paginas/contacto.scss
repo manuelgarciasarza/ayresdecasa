@@ -1,0 +1,73 @@
+.contacto{
+    display: flex;
+    margin-top: 50px;
+    img{
+        width: 500px;
+        height: 500px;
+        margin: 30px 0;
+        margin-left: 180px;
+    }
+    .contacto-form{
+        margin-left: 50px;
+        padding-top: 100px;
+        h1{
+            color: $color-titulos;
+            font-family:'Playfair Display', serif;
+            font-size: 50px;
+            padding-left: 40px;
+        }
+        form{
+            padding-left: 40px;
+            .boton-enviar{
+                display: block;
+                width: 15%;
+                margin: auto;
+                margin-top: 20px;
+                color: $color-boton;
+                border-color: $color-boton;
+                transition: transform 0.3s linear;
+                border-radius: 6px;
+                border: 1px solid;
+                &:hover{
+                    transform: scale(1.1,1.2);
+                    opacity: .9;
+                    background-color: $bk-color2;
+                    transition: transform 0.2s linear;
+                }
+            }
+            input {
+                width: 365px;
+                margin-top: 30px;
+            }
+            textarea {
+                width: 365px;
+                height: 150px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+.contacto-ayuda{
+    display: flex;
+    font-family:'Playfair Display', serif;
+    text-align: center;
+    img{
+        width: 400px;
+        height: 300px;
+    }
+    .texto-ayuda{
+        font-family:'Playfair Display', serif;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 150px;
+        p{
+            padding: 0px 10px;
+        }
+        h2{
+            margin-bottom: 40px;
+            color: $color-titulos;
+            font-family:'Playfair Display', serif;
+        }
+    }
+}

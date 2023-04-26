@@ -1,0 +1,95 @@
+.nosotros{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    img{
+        width: 500px;
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .nosotros-texto{
+        flex: 1;
+        font-family:'Playfair Display', serif;
+        padding-left: 30px;
+        padding-top: 100px;
+        font-size: 15px;
+        width: 80%;
+        h1{
+            color: $color-titulos;
+            font-family:'Playfair Display', serif;
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        p {
+            text-align: left;
+            text-align: justify;
+        }
+    }
+}
+/* El equipo */
+.equipo-titulo{
+    background-color: $bk-color2;
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+    font-family:'Playfair Display', serif;
+    color: $color-titulos;
+    font-size: 30px;
+}
+
+.equipo-info {
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    .laila{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        h3{
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: $color-titulos;
+            font-family:'Nunito',sans-serif;
+        }
+        .laila-texto{
+            margin-left: 25px;
+            font-family:'Playfair Display', serif;
+            font-size: 15px;
+        }
+        p{
+            background-color: $bk-color2;
+        }
+        img {
+            height: 200px;
+            width: 200px;
+            border-radius: 30px;
+        }
+    }
+    .mechi{
+        display: flex;
+        width: 60%;
+        margin-left: 425px;
+        h3{
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: $color-titulos;
+            font-family:'Nunito',sans-serif;
+            text-align: right;
+            margin-right: 30px;
+        }
+        p{
+            background-color: $bk-color2;
+            margin-right: 30px;
+            font-family:'Playfair Display', serif;
+            font-size: 15px;
+        }
+        img {
+            height: 200px;
+            width: 200px;
+            border-radius: 30px;
+        }
+    }
+}

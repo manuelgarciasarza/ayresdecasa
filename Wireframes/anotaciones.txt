@@ -1,0 +1,59 @@
+// header:
+    logo mas (grande sin animacion) //HECHO//
+    
+// footer:
+    el espacio entre el logo y el resto
+    el espaciado de los textos
+    la animacion de las redes
+    animacion en el logo
+
+//  index: 
+    los botones de compra
+
+// tienda:
+    // los botones de compra
+    //el espacio del texto descriptivo
+    // suavizar las animaciones
+
+eventos:
+    agregar carrucel
+
+// sobre nosotros: 
+    centrar mas la imagen
+
+// contacto: 
+    centrar mejor el inicio (imagen y texto)
+
+en celular:
+    // header
+        centrar mas el logo
+    // nav
+        que no esten tan pegados al borde
+    // footer
+        ?? que el seguinos este debajo del logo
+        // que las palabras no esten tan al borde
+    // index
+       // botones de compra mas espaciados
+       // boton de conoce nuestros productos centrado
+    !! tienda
+        // botones de compra mas espaciados
+        ?? nuestros productos no se lee bien
+    ?? eventos 
+        boton de suscribirse alineado a la barra
+    ?? contacto
+        el form mas centrado
+        ?? el boton enviar que este al lado de la text box
+
+    // te recomiendo que modifiques el nombre de carpetas ya rrchivos, cambiando la inicial con minuscula. Recorda que todos los archivos y carpetas deben ir en minúscula //
+1. Quitá todo texto lorem y reemplazalo por texto real para la entrega final, te recuerdo que el texto lorem en esta entrega ya no era valido, cosa que dejo pasar, pero que en entregas finales ya no se dejan pasar. 
+    // 2. Te recomiendo estilizar los botones de comprar en cada producto, asi le da un toque al sitio en ese sentido. //
+    // 3. Los titulos los trataria de cambiar de color, porque a veces es dificil leerlo con imagenes de fondo //
+    // Como recomendacion te diria que trates de centrar un poco el formulario de contacto, ya que se ve medio disparejo en ciertos aspectos. //
+
+    // Modificar nombre de los archivos y carpetas, todo con minúscula //
+- agregar un carrusel de fotos o 2 
+- sacar texto lorem 
+    // estilizart los botones a como se ve en ipad //
+- el titulo no se tengo que verlo porque se cual es pero no me gusta negro oscuro 
+    // centrar el formulario de contacto //
+- quiero leer la descripción que pusiste y las palabras que usaste

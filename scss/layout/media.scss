@@ -1,0 +1,276 @@
+@media (max-width: 768px){
+    .navegar {
+        ul{
+            width:  100%;
+            font-size: 14px;
+            padding: 0px 5px;
+        }
+    } 
+
+    .cabeza {
+        input{
+            width: 80px;
+        }
+        .logo {
+            margin: 0 auto;
+            margin-right: 80px;
+        }
+    }
+
+/* bienvenido */
+    .bienvenido{
+        width: 100%;
+        margin-top: 20px;
+        img{
+            width: 100%;
+            height: 320px;
+        }    
+        h1{
+            color: #8C543F;
+            font-family:'Playfair Display', serif;
+            font-size: 38px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        p{
+            padding: 0px 5px;
+        }
+        .bienvenido-texto{
+            a{
+                text-decoration: none;
+            }
+            font-family:'Playfair Display', serif;
+            padding: 0 ;
+            button{
+                width: 50%;
+                margin: auto;
+                margin-top: 15px;
+                display: flex;
+            }
+        }
+    }
+/* tienda */
+    .tienda{
+        .tienda-texto{
+            background-color: $bk-color2; opacity: 70%;
+            margin: 60px 10px;
+            height: 42px;
+            p{
+                display: none;
+            }
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+/* Productos */
+
+    .productos{
+        .productos-uno{
+            margin-bottom: 15px;
+        }
+    }
+
+
+/* evento */
+    .eventos{
+        display: flex;
+        height: 280px;
+        margin: 25px 0;
+        .eventos-texto{
+            display: none;
+            }
+    }
+    .eventos-feria{
+        p{
+            margin-top: 20px;
+            font-family:'Playfair Display', serif; 
+            font-size: 15px;
+            padding: 0px 20px;
+            text-align: left;
+        }
+    }
+    
+/* Proximos Eventos */
+    .proximos-eventos{
+        width: 80%;
+        margin: auto;
+        h2{
+            font-size: 35px;
+        }
+        .proximos-eventos-texto{
+            width: 100%;
+            margin: 0px;
+            p{
+                text-align: left;
+                padding-left: 25px;
+            }
+        }
+    }
+
+    .fotos-eventos {
+        width: 100%;
+        text-align: center;
+        img{
+            width: 100%;
+            height: 320px;
+            margin: 5px 0;
+        }
+    }
+/* Nosotros */
+    .nosotros{
+        margin-top: 30px;
+        img{
+            width: 320px;
+            height: 320px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .nosotros-texto{
+            font-family:'Playfair Display', serif;
+            padding-left: 0px;
+            padding-top: 0px;
+            font-size: 15px;
+            width: 100%;
+            h1{
+                color: #8C543F;
+                font-family:'Playfair Display', serif;
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+/* El equipo */
+
+    .equipo-info {
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .laila{
+            display: flex;
+            width: 100%;
+            margin: auto;
+            h3{
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+            .laila-texto{
+                margin-left: 10px;
+                font-family:'Playfair Display', serif;
+                font-size: 15px;
+            }
+            img {
+                height: 125px;
+                width: 125px;
+            }
+        }
+        .mechi{
+            width: 100%;
+            margin-left: 0px;
+            h3{
+                margin-right: 10px;
+            }
+            p{
+                margin-right: 10px;
+            }
+            img {
+                height: 125px;
+                width: 125px;
+            }
+        }
+    }
+
+    
+/* Contacto */
+    .contacto{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        img{
+            width: 320px;
+            height: 320px;
+            margin: 0px 0;
+            margin-left: 0px;
+        }
+        .contacto-form{
+            text-align: center;
+            margin-left: 0px;
+            padding-top: 0px;
+            margin-top: 10px;
+            h1{
+                font-size: 35px;
+                padding-left: 0px;
+            }
+            form{
+                padding-left: 0px;
+                justify-content: center;
+                align-items: center;
+                .boton-enviar {
+                    width: 15%;
+                    margin: auto;
+                    margin-top: 20px;
+                }
+                input {
+                    width: 240px;
+                }
+                textarea {
+                    width: 240px;
+                    height: 100px;
+                }
+            }
+            p{
+                margin-top: 15px;
+            }
+
+            }
+    }
+
+    .contacto-ayuda {
+        img{
+            width: 320px;
+            height: 300px;
+        }
+        .texto-ayuda {
+            margin-left: 0px;
+            h2{
+                margin-bottom: 20px;
+                
+            }
+        }
+    }
+    .pie{
+        .pie-iconos {
+            padding-right: 0px;
+            padding-top: 30px;
+        }
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .cabeza {
+        input{
+            width: 80px;
+        }
+        .logo {
+            margin: 0 auto;
+            margin-right: 20px;
+        }
+    }
+//tienda//
+    .tienda{
+        .tienda-texto{
+            background-color: $bk-color2; opacity: 70%;
+            margin: 60px 10px;
+            height: 38px;
+            p{
+                display: none;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+}
